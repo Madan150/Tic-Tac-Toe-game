@@ -1,0 +1,54 @@
+
+ body{
+    margin: 0px;
+    padding: 0px;
+   
+    height: 100vh;
+    text-align: center;
+ }
+ .game{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3,0fr);
+    
+ }
+ 
+ .box{
+    height: 100px;
+    width: 100px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 90px;
+    border-radius: 10px;
+    margin: 2px;
+    color: black;
+    background-color:rgb(247, 181, 59) ;
+ }
+ #resetbtn{
+    margin-top: 20px;
+    padding: 10px;
+
+ }
+ #NewBtn{
+    border: none;
+    background-color: aqua;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 12px;
+ }
+ #msg{
+    font-size: 20px;
+    font-weight: bolder;
+ }
+ #resetbtn{
+    border: none;
+    background-color: aqua;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 12px;
+    
+ }
+ 
+ 
